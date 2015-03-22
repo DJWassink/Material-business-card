@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Business Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/front.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/back.css">
+
+</head>
+
+<body>
+
+    <div class="controls">
+        <input id="multiplier" type="number" value="10">
+        <select id="side">
+            <option value="front">Front side</option>
+            <option value="back">Back side</option>
+        </select>
+        <button id="export">Create canvas (experimental)</button>
+    </div>
+
+    <div id="main-container">
+        <div class="card-container card-back">
+            <div class="back-header">
+                <img class="round" src="images/me.png">
+                <div class="header-text">
+                    <span class="fat-text">DIRK-JAN WASSINK | </span><span>Software &amp; Webdeveloper</span>
+                </div>
+            </div>
+            <div class="back-content">
+                <div class="cards-container">
+                    <div class="left-cards-container">
+                        <div class="card clearfix">
+                            <div class="icon"><i class="fa fa-user fa-2x"></i>
+                            </div>
+                            <h1>Hi I'm Dirk-Jan</h1>
+                            <p>Currently I am a student at the Saxion University of Applied Science. There I Study informatics.</p>
+                            <p>In my spare time I like to develop applications, especially applications that include web aspects.</p>
+                            <p>When I am not busy developing stuff I am either out with friends, watching a movie, playing the bass-guitar or just simply relaxing.</p>
+                        </div>
+                    </div>
+                    <div class="right-cards-container">
+                        <div class="card clearfix">
+                            <div class="icon"><i class="fa fa-linkedin fa-2x"></i>
+                            </div>
+                            <p>linkedin.com/in/djwassink</p>
+                        </div>
+                        <div class="card clearfix">
+                            <div class="icon"><i class="fa fa-github fa-2x"></i>
+                            </div>
+                            <p>github.com/djwassink</p>
+                        </div>
+                        <div class="card clearfix">
+                            <div class="icon"><i class="fa fa-mobile fa-2x"></i>
+                            </div>
+                            <p>+31 681240537</p>
+                        </div>
+                        <div class="card clearfix">
+                            <div class="icon"><i class="fa fa-globe fa-2x"></i>
+                            </div>
+                            <p>dirkjanwassink.nl</p>
+                        </div>
+                        <div class="card clearfix">
+                            <div class="icon"><i class="fa fa-inbox fa-2x"></i>
+                            </div>
+                            <p>dirk.jan.wassink@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-container card-front">
+            <div class="front-content">
+                <img class="round" src="images/me.png">
+                <div class="name-fit text-center">
+                    <span class="fat-text">DIRK-JAN WASSINK</span>
+                </div>
+                <div class="title-fit text-center">
+                    <span>Software &amp; Webdeveloper</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/FitText.js/jquery.fittext.js"></script>
+    <script type="text/javascript" src="bower_components/html2canvas/build/html2canvas.min.js"></script>
+    <script type="text/javascript" src="javascripts/main.js"></script>
+</body>
+
+</html>
