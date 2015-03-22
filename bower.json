@@ -1,0 +1,29 @@
+{
+  "name": "Business Card DirkJan Wassink",
+  "version": "0.0.1",
+  "authors": [
+    "Dirk-Jan Wassink <dirk.jan.wassink@gmail.com>"
+  ],
+  "description": "Business Card - completely made in html/css/js",
+  "main": "index.html",
+  "keywords": [
+    "business",
+    "card",
+    "dirkjan",
+    "wassink"
+  ],
+  "license": "MIT",
+  "homepage": "dirkjanwassink.nl",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "FitText.js": "~1.2.0",
+    "html2canvas": "~0.4.1",
+    "font-awesome": "~4.3.0"
+  }
+}

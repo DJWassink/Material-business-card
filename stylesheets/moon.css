@@ -1,0 +1,24 @@
+.container {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+}
+
+.moon {
+	position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 65px 65px 0 0 red;
+}
+.moon2 {
+  box-shadow: 65px 65px 0 0 green;
+	transform: rotate(10deg);
+	left: 10%;
+	top: 5%;
+}
+.moon3 {
+  box-shadow: 65px 65px 0 0 yellow;
+	transform: rotate(-10deg);
+	top: 10%;
+}

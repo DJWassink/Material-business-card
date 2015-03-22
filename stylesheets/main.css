@@ -1,0 +1,57 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #aaa;
+}
+p {
+    margin: .5em 0;
+}
+h1 {
+    margin: .67em 0 .4em;
+}
+.card-container {
+    background: #2b98d4;
+    width: 1250px;
+    height: 810px;
+    font-size: 1.28em;
+    transition: all .4s ease-in-out;
+    width: calc(125px * 10);
+    height: calc(81px * 10);
+    font-size: calc(0.125em * 10);
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+img {
+    width: 100%;
+}
+.round {
+    border-radius: 50%;
+}
+.text-center {
+    text-align: center;
+}
+p {
+    font-size: 1.5em;
+}
+.card-back {
+    display: none;
+}
+.controls {
+    z-index: 999;
+    position: fixed;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+.controls:hover {
+    opacity: 1;
+}
+.fat-text {
+    font-weight: 700;
+}
+.fatter-text {
+    font-weight: 900;
+}
