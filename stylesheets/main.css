@@ -40,15 +40,24 @@ p {
 .card-back {
     display: none;
 }
-.controls {
-    z-index: 999;
-    position: fixed;
-    opacity: 0;
-    transition: opacity .3s ease;
+#controls {
+    background: #BBDEFB;
+    padding: 15px;
 }
-.controls:hover {
-    opacity: 1;
+button {
+    border:none;
+    border-radius: 2px;
+    padding: 8px 10px;
+    margin: 2px;
+    background: #1976D2;
+    color: white;
+    transition: all .35s ease;
 }
+button:hover {
+    cursor: pointer;
+    background:#03A9F4;
+}
+
 .fat-text {
     font-weight: 700;
 }
