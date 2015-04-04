@@ -6,7 +6,7 @@ $(document).ready(function() {
 		$('.card-container')
 			.css('width', 125*multiplier)
 			.css('height', 81*multiplier)
-			.css('font-size', 0.128*multiplier + 'em');
+			.css('font-size', 0.125*multiplier + 'em');
 		fixText();
 	});
 

@@ -6,12 +6,12 @@
     height: 120%;
     width: auto;
     left: 7.5%;
-    top: 10%;
+    top: 18%;
     border: solid .7em #2b98d4;
 }
 .header-text {
     float: right;
-    margin: 2em;
+    margin: 2.8em;
     font-size: 1.3em;
     color: white;
 }
@@ -19,7 +19,7 @@
     height: 80%;
     width: 100%;
     background-color: white;
-    padding: 1.5em 2em .5em;
+    padding: 1.5em 3em;
     box-sizing: border-box;
 }
 .cards-container {
@@ -27,16 +27,16 @@
 }
 .left-cards-container {
     float: left;
-    width: 54%;
+    width: 53%;
 }
 .right-cards-container {
     float: right;
-    width: 44.5%;
+    width: 45.5%;
 }
 .card {
     background: #f1f0f0;
-    border-bottom: solid .3em #e0e0e0;
-    padding: .7em 1em;
+    border-bottom: solid .3em #DADADA;
+    padding: .6em 1em;
     margin-bottom: 3%;
 }
 .card > .icon {
